@@ -30,10 +30,15 @@ int main() {
 
     cout<<setw(5)<<" X "<<"\t\t";
     cout<<setw(5)<<" Y "<<"\t\t";
+    
     for (i = 1; i<n; i++)
         cout<<setw(5)<<"\u2207^"<<i<<"Y"<<"\t\t";
     cout<<endl;
 
+    for (i = 0; i<=n; i++)
+        cout<<setw(5)<<"-----"<<"\t\t";
+    cout<<endl;
+    
     for (i = 0; i < n; i++) {
         cout << setw(5) << arr_x[i]
              << "\t\t";
